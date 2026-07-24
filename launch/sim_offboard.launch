@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="/home/wh/PX4-Autopilot/launch/px4.launch">
+        <arg name="vehicle" value="iris"/>
+    </include>
+    <node pkg="mavros" type="mavros_node" name="mavros_driver" output="screen">
+        <param name="fcu_url" value="udp://127.0.0.1:14550@127.0.0.1:14540"/>
+    </node>
+</launch>
