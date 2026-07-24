@@ -12,13 +12,15 @@ rospy、geometry\_msgs、mavros\_msgs
 
 ## 二、目录结构
 
+```
 week3_offboard/
 ├── CMakeLists.txt         
 ├── package.xml             
 ├── launch/                 # 一键启动配置文件夹
 ├── scripts/
 │   └── offboard_square.py  # 飞行控制Python主脚本
-└── .gitignore              
+└── .gitignore
+```              
 
 ## 三、代码运行
 
